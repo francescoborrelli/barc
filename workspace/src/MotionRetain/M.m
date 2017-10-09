@@ -1,7 +1,7 @@
 %  Daniel Kawano, Rose-Hulman Institute of Technology
 %  Last modified:  Mar 30, 2016
 
-function mass = M(Y)
+function mass = M(t, Y, omega1, omega2, omega3, tdata)
 
 %  For convenience, define the state variables:
 
@@ -11,6 +11,7 @@ phi = Y(3);
 
 %  Construct the mass matrix M based on the equation(5) in the 
 %  lab instruction.
+
 %  =========================Your Code Begins=========================
 mass = TODO
 %  =========================Your Code Ends===========================
